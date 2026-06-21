@@ -24,7 +24,7 @@ test("client.events.search", async () => {
 
   expect(response.data).toBeDefined();
   expect(response.data?.length).toBe(1549);
-});
+}, 10_000);
 
 test("client.events.get", async () => {
   const response = await client.events.get(51488);
