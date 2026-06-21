@@ -1,4 +1,4 @@
-import { paths, components, operations } from "./robotevents.js";
+import { paths, components, operations } from "./events.vex.js";
 import type { Round } from "../types.js";
 export { paths, operations };
 

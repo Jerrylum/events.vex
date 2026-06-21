@@ -1,4 +1,4 @@
-import { components } from "../generated/robotevents.js";
+import { components } from "../generated/events.vex.js";
 import { Color, IdInfo } from "../main.js";
 import { Alliance, MatchData, rounds } from "../types.js";
 

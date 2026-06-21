@@ -770,7 +770,8 @@ export interface operations {
             query?: {
                 /** @description Filter to only return Matches which involved given Teams */
                 "team[]"?: number[];
-                /** @description Filter by the Round of the Match.
+                /**
+                 * @description Filter by the Round of the Match.
                  *     Some typical values are shown below:
                  *     - 1 - Practice
                  *     - 2 - Qualification
@@ -779,7 +780,7 @@ export interface operations {
                  *     - 5 - Finals
                  *     - 6 - Round of 16
                  *     - etc.
-                 *      */
+                 */
                 "round[]"?: number[];
                 /** @description Filter by the Instance of the Match. This is used to describe which Quarter-Final match (for example) is being played */
                 "instance[]"?: number[];
@@ -978,7 +979,8 @@ export interface operations {
                 "event[]"?: number[];
                 /** @description Filter by the Season during which the Match was played */
                 "season[]"?: number[];
-                /** @description Filter by the Round of the Match.
+                /**
+                 * @description Filter by the Round of the Match.
                  *     Some typical values are shown below:
                  *     - 1 - Practice
                  *     - 2 - Qualification
@@ -987,7 +989,7 @@ export interface operations {
                  *     - 5 - Finals
                  *     - 6 - Round of 16
                  *     - etc.
-                 *      */
+                 */
                 "round[]"?: number[];
                 /** @description Filter by the Instance of the Match. This is used to describe which Quarter-Final match (for example) is being played */
                 "instance[]"?: number[];

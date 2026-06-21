@@ -1120,10 +1120,10 @@ security:
   - bearerAuth:
       []
 info:
-  title: Public Robot Events API
+  title: Public VEX Events API
   version: 1.0.21
   description: >
-    An API to access data on Robot Events officially.
+    An API to access data on VEX Events.
 
     ## Request Metadata
 
@@ -1131,7 +1131,7 @@ info:
     <br>
     Please note that dates should be formatted according to RFC3339.
 servers:
-  - url: https://www.robotevents.com/api/v2
+  - url: https://events.vex.com/api/v2
 components:
   securitySchemes:
     bearerAuth:
