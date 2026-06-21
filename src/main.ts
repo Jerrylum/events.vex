@@ -30,4 +30,7 @@ export function Client(options: ClientOptions) {
   };
 }
 
-export type RobotEventsClient = ReturnType<typeof Client>;
+export type VexEventsClient = ReturnType<typeof Client>;
+
+/** @deprecated Use {@link VexEventsClient} */
+export type RobotEventsClient = VexEventsClient;
