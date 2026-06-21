@@ -4,8 +4,6 @@ import { defineConfig } from "vite";
 export default defineConfig({
   test: {
     fileParallelism: false,
-    poolOptions: {
-      threads: { singleThread: true },
-    },
+    maxWorkers: 1,
   },
 });
