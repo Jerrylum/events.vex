@@ -7,6 +7,9 @@
   "repository": "https://github.com/Jerrylum/events.vex",
   "author": "Brendan McGuire & Jerry Lum",
   "license": "MIT",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
   "private": false,
   "workspaces": [
     "examples"
