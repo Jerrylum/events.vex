@@ -1,10 +1,10 @@
 ---
 name: Feature Request
-about: Suggest an idea for the robotevents module. API suggestions should be directed
-  to support@robotevents.com
+about: Suggest an idea for the events.vex module. API suggestions should be directed
+  to support@vex.com
 title: "[REQ]"
 labels: enhancement
-assignees: MayorMonty
+assignees: Jerrylum
 
 ---
 

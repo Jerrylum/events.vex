@@ -1,10 +1,10 @@
 ---
 name: Bug Report
-about: Report a bug in the robotevents module. API bug reports should be directed
-  to support@robotevents.com
+about: Report a bug in the events.vex module. API bug reports should be directed
+  to support@vex.com
 title: "[BUG]"
 labels: bug
-assignees: MayorMonty
+assignees: Jerrylum
 
 ---
 

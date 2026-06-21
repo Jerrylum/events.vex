@@ -11,7 +11,7 @@ async function getEvent(sku: string): Promise<Event> {
   const event = response.data;
   expect(event).toBeDefined();
   expect(event?.sku).toBe(sku);
-  expect(event?.getURL()).toBe(`https://www.robotevents.com/${sku}.html`);
+  expect(event?.getURL()).toBe(`https://events.vex.com/${sku}.html`);
 
   return event!;
 }

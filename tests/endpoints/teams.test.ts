@@ -10,7 +10,7 @@ test("client.teams.get", async () => {
   const team = response.data;
   expect(team).toBeDefined();
   expect(team?.number).toBe("3796B");
-  expect(team?.getURL()).toBe("https://www.robotevents.com/teams/V5RC/3796B");
+  expect(team?.getURL()).toBe("https://events.vex.com/teams/V5RC/3796B");
 });
 
 test("client.teams.getByNumber", async () => {
@@ -25,7 +25,7 @@ test("client.teams.getByNumber", async () => {
   const team = response.data;
   expect(team).toBeDefined();
   expect(team?.number).toBe("3796B");
-  expect(team?.getURL()).toBe("https://www.robotevents.com/teams/V5RC/3796B");
+  expect(team?.getURL()).toBe("https://events.vex.com/teams/V5RC/3796B");
 
   // Invalid Team
 
@@ -47,7 +47,7 @@ test("client.teams.search", async () => {
   const team = response.data?.[0];
   expect(team).toBeDefined();
   expect(team?.number).toBe("3796B");
-  expect(team?.getURL()).toBe("https://www.robotevents.com/teams/V5RC/3796B");
+  expect(team?.getURL()).toBe("https://events.vex.com/teams/V5RC/3796B");
 
   // Pagination Test
   const worlds = await client.events.getBySKU("RE-VRC-23-3690");

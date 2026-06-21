@@ -93,7 +93,7 @@ export type ClientOptions = {
 
 export function createClient(options: ClientOptions): Client {
   const base = createOpenAPIClient<paths, "application/json">({
-    baseUrl: "https://www.robotevents.com/api/v2",
+    baseUrl: "https://events.vex.com/api/v2",
     headers: {
       Authorization: `Bearer ${options.authorization.token}`,
       ...options.request?.headers,

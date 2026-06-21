@@ -69,7 +69,7 @@ export class Match implements MatchData {
    * Gets the outcome of the match
    *
    * @example
-   * const team = await robotevents.teams.get("3796B");
+   * const team = await client.teams.get("3796B");
    * const matches = await team.matches();
    *
    * for (const match of match) {

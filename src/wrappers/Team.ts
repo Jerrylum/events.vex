@@ -47,14 +47,14 @@ export class Team implements TeamData {
     | undefined;
 
   /**
-   * Gets the RobotEvents listing for the team
+   * Gets the events.vex.com listing for the team
    */
   getURL() {
-    return `https://www.robotevents.com/teams/${this.program.code}/${this.number}`;
+    return `https://events.vex.com/teams/${this.program.code}/${this.number}`;
   }
 
   /**
-   * Returns the raw response from RobotEvents
+   * Returns the raw response from events.vex.com
    */
   getData(): TeamData {
     return {

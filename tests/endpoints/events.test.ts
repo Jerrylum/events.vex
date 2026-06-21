@@ -11,7 +11,7 @@ test("client.events.search", async () => {
   expect(event).toBeDefined();
   expect(event?.sku).toBe("RE-VRC-23-1488");
   expect(event?.getURL()).toBe(
-    "https://www.robotevents.com/RE-VRC-23-1488.html"
+    "https://events.vex.com/RE-VRC-23-1488.html"
   );
 
   // Pagination Test
@@ -36,7 +36,7 @@ test("client.events.get", async () => {
   expect(event).toBeDefined();
   expect(event?.sku).toBe("RE-VRC-23-1488");
   expect(event?.getURL()).toBe(
-    "https://www.robotevents.com/RE-VRC-23-1488.html"
+    "https://events.vex.com/RE-VRC-23-1488.html"
   );
 });
 
@@ -50,7 +50,7 @@ test("client.events.getBySKU", async () => {
   expect(event).toBeDefined();
   expect(event?.sku).toBe("RE-VRC-23-1488");
   expect(event?.getURL()).toBe(
-    "https://www.robotevents.com/RE-VRC-23-1488.html"
+    "https://events.vex.com/RE-VRC-23-1488.html"
   );
 
   // Invalid SKU

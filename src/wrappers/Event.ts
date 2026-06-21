@@ -70,7 +70,7 @@ export class Event implements EventData {
   event_type?: "tournament" | "league" | "workshop" | "virtual" | undefined;
 
   getURL() {
-    return `https://www.robotevents.com/${this.sku}.html`;
+    return `https://events.vex.com/${this.sku}.html`;
   }
 
   getData(): EventData {
