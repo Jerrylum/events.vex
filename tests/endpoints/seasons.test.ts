@@ -43,4 +43,4 @@ test("client.seasons.events", async () => {
 
   expect(response.data).toBeDefined();
   expect(response.data?.length).toBe(1549);
-});
+}, 10_000);

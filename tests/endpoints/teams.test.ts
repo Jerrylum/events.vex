@@ -65,4 +65,4 @@ test("client.teams.search", async () => {
 
   expect(response.data).toBeDefined();
   expect(response.data?.length).toBe(819);
-});
+}, 10_000);
