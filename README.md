@@ -4,6 +4,8 @@ TypeScript client for the [VEX Events API](https://events.vex.com/api/v2) at [ev
 
 This package is the maintained fork of [`robotevents`](https://github.com/brenapp/robotevents) for the VEX / GRSF competition platform. It targets the new API host and public site URLs used by VEX events going forward.
 
+**`7.0.0`** is the first npm release of `events.vex` (successor to robotevents v6 for [events.vex.com](https://events.vex.com)).
+
 ## Basic usage
 
 ```typescript

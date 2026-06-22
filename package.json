@@ -1,27 +1,48 @@
 {
   "name": "events.vex",
-  "version": "6.0.4",
+  "version": "7.0.0",
   "description": "Programmatically access the VEX Events API",
   "type": "module",
-  "exports": "./out/main.js",
-  "repository": "https://github.com/Jerrylum/events.vex",
+  "exports": {
+    ".": {
+      "types": "./out/main.d.ts",
+      "import": "./out/main.js"
+    }
+  },
+  "types": "./out/main.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jerrylum/events.vex.git"
+  },
+  "homepage": "https://github.com/Jerrylum/events.vex#readme",
+  "bugs": {
+    "url": "https://github.com/Jerrylum/events.vex/issues"
+  },
+  "keywords": [
+    "vex",
+    "robotevents",
+    "events.vex",
+    "robotics",
+    "api",
+    "openapi"
+  ],
   "author": "Brendan McGuire & Jerry Lum",
   "license": "MIT",
   "engines": {
-    "node": "^20.19.0 || >=22.12.0"
+    "node": ">=18"
   },
   "private": false,
   "workspaces": [
     "examples"
   ],
   "scripts": {
-    "prepublishOnly": "rm -rf out && tsc -d && vitest run",
+    "prepublishOnly": "npm run build",
+    "prepack": "npm run build",
     "build": "tsc",
     "test": "vitest"
   },
   "files": [
-    "out",
-    "package-lock.json"
+    "out"
   ],
   "dependencies": {
     "openapi-fetch": "^0.11.1"
