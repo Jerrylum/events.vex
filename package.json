@@ -1,6 +1,6 @@
 {
   "name": "events.vex",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "Programmatically access the VEX Events API",
   "type": "module",
   "exports": {
