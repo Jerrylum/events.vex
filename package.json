@@ -42,7 +42,8 @@
     "test": "vitest"
   },
   "files": [
-    "out"
+    "out/**/*.js",
+    "out/**/*.d.ts"
   ],
   "dependencies": {
     "openapi-fetch": "^0.11.1"
